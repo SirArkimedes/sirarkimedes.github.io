@@ -147,6 +147,15 @@ body {
 /* ABOUT ME
 -------------------------------------------------- */
 
+.divider-grey {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 50px;
+    border-top: 2px solid #B3B3B1;
+    padding-bottom: 40px;
+}
+
 img {
   height: 100px;
   width: 100px;
