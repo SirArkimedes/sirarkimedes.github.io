@@ -147,13 +147,22 @@ body {
 /* ABOUT ME
 -------------------------------------------------- */
 
+.about-section > h2 {
+  margin-top: 60px;
+}
+
 .divider-grey {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
+    margin-top: 10px;
     width: 50px;
     border-top: 2px solid #B3B3B1;
-    padding-bottom: 40px;
+    padding-bottom: 35px;
+}
+
+.col-lg-6 > p {
+  font-size: 14pt;
+  margin-bottom: 60px;
 }
 
 img {
