@@ -1,0 +1,266 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  background-color: #EBEBEB;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+.navbar-inverse .navbar-brand  {
+  color: black;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top {
+  background-color: rgba(255, 255, 255, .97);
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: black;
+}
+
+.navbar-fixed-top {
+    border-width: 0px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #0099FF;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+  color: #0099FF;
+}
+
+/*
+.navbar-fixed-top, .navbar-fixed-bottom {
+    right: 20%;
+    left: 20%;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #23527C;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #23527C;
+} */
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+.carousel-indicators li {
+  border: 1px solid black;
+}
+
+.carousel-indicators .active {
+  background-color: black;
+}
+
+/* Carousel base class */
+.carousel {
+  height: 825px;
+  margin-bottom: 20px;
+  margin-top: -70px;
+  padding-bottom: 70px; 
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  color: #000000;
+  text-shadow: none;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item  {
+  padding-top: 125px;
+  padding-bottom: -100px;
+  height: 825px;
+  background-color: #FFF;
+}
+
+.carousel-inner {
+  margin-top: 0px;
+}
+
+.carousel-inner > .item:nth-child(1) > a > img {
+  width: 765px;
+}
+
+.carousel-inner > .item:nth-child(2) > a > img {
+  width: 765px;
+}
+
+.carousel-inner > .item:nth-child(3) > a > img {
+  width: 918px;
+}
+
+.carousel-inner > .item > img {
+  top:  0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  height: 505px;
+}
+
+.carousel-inner > .item > a > img {
+  top:  0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  height: 505px;
+}
+
+.carousel-control {
+  color: black;
+}
+
+.carousel-control.right { 
+  background-image: none;
+}
+.carousel-control.left { 
+  background-image: none;
+}
+
+
+/* ABOUT ME
+-------------------------------------------------- */
+
+.about-section > h2 {
+  margin-top: 60px;
+}
+
+.divider-grey {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 50px;
+    border-top: 2px solid #B3B3B1;
+    padding-bottom: 35px;
+}
+
+.col-lg-6 > p {
+  font-size: 14pt;
+  margin-bottom: 95px;
+}
+
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+
+/* CONTACT ME
+-------------------------------------------------- */
+
+.contact-section {
+  margin-bottom: 60px;
+}
+
+.contact-section > h2 {
+  margin-top: 60px;
+}
+
+.contact-section > .row > .container > .glyphicon {
+  font-size: 30pt;
+}
+
+.contact-section > .container > .glyphicon {
+  font-size: 50pt;
+}
+
+.contact-section > .container > h3 {
+  margin-top: 5px;
+}
+
+
+/* FOOTER
+-------------------------------------------------- */
+
+hr.featurette-divider {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: black;
+}
+
+footer {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
