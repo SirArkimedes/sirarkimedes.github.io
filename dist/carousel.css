@@ -122,6 +122,11 @@ body {
   width: 765px;
 }
 
+.carousel-inner > .item:nth-child(3) > img {
+  width: 918px;
+  height;
+}
+
 .carousel-inner > .item > img {
   top:  0;
   left: 0;
