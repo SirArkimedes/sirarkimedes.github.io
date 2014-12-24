@@ -79,12 +79,6 @@ body {
   margin-bottom: 10px;
 }
 
-.apps-section > .container > .row > .col-md-4 > .grid.mask > a > img.img-responsive {
-  margin: auto;
-  height: 261px;
-  width: 261px;
-}
-
 .apps-section > .container > .row > .col-md-4 > .grid.mask > img.img-responsive {
   margin: auto;
   height: 261px;
