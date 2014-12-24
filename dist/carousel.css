@@ -103,7 +103,7 @@ body {
 }
 
 /* Declare heights because of positioning of img element */
-.carousel .item {
+.carousel .item  {
   padding-top: 125px;
   padding-bottom: -100px;
   height: 825px;
@@ -114,20 +114,28 @@ body {
   margin-top: 0px;
 }
 
-.carousel-inner > .item:nth-child(1) > img {
+.carousel-inner > .item:nth-child(1) > a > img {
   width: 765px;
 }
 
-.carousel-inner > .item:nth-child(2) > img {
+.carousel-inner > .item:nth-child(2) > a > img {
   width: 765px;
 }
 
-.carousel-inner > .item:nth-child(3) > img {
+.carousel-inner > .item:nth-child(3) > a > img {
   width: 918px;
-  height;
 }
 
 .carousel-inner > .item > img {
+  top:  0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  height: 505px;
+}
+
+.carousel-inner > .item > a > img {
   top:  0;
   left: 0;
   margin-left: auto;
@@ -168,6 +176,7 @@ body {
   font-size: 14pt;
   margin-bottom: 95px;
 }
+
 
 img {
   height: 100px;
