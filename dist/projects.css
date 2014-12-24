@@ -96,10 +96,10 @@ body {
   margin-bottom: 10px;
 }
 
-.games-section > .container > .row > .col-md-4 > .grid.mask > img.img-responsive {
+.games-section > .container > .row > .grid.mask > img.img-responsive {
   margin: auto;
-  height: 100%;
-  width: 100%;
+  height: 50%;
+  width: 50%;
 }
 
 
