@@ -161,12 +161,36 @@ body {
 
 .col-lg-6 > p {
   font-size: 14pt;
-  margin-bottom: 60px;
+  margin-bottom: 95px;
 }
 
 img {
   height: 100px;
   width: 100px;
+}
+
+
+/* CONTACT ME
+-------------------------------------------------- */
+
+.contact-section {
+  margin-bottom: 60px;
+}
+
+.contact-section > h2 {
+  margin-top: 60px;
+}
+
+.contact-section > .row > .container > .glyphicon {
+  font-size: 30pt;
+}
+
+.contact-section > .container > .glyphicon {
+  font-size: 50pt;
+}
+
+.contact-section > .container > h3 {
+  margin-top: 5px;
 }
 
 
