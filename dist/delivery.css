@@ -104,6 +104,7 @@ body {
 
 .carousel-indicators li {
   border: 1px solid black;
+  visibility: hidden;
 }
 
 .carousel-indicators .active {
@@ -149,9 +150,11 @@ body {
 
 .carousel-control.right { 
   background-image: none;
+  visibility: hidden;
 }
 .carousel-control.left { 
   background-image: none;
+  visibility: hidden;
 }
 
 
