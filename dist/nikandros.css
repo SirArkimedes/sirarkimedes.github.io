@@ -73,87 +73,44 @@ body {
 }
 
 .app-section {
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 60px;
+}
+
+.app-section .container .grid.mask .logo img {
+  width: 50%;
+  height: 50%;
+  margin-bottom: 20px;
+}
+
+.app-section .container .grid.mask .status {
+  margin-bottom: 20px;
 }
 
 .apps-section .container .row:nth-child(1) {
   margin-bottom: 10px;
 }
 
-.img-responsive {
-  margin: auto;
-  margin-bottom: 10px;
-  margin-top: 35px;
-  height: 131px;
-  width: 131px;
-}
-
 .app-section .container .grid.mask .row .container {
   width: 80%;
-  margin-left: 200px;
+  /*margin-left: 200px;*/
   background-color: #FFF;
+}
+
+.app-section .container .grid.mask .row .container .container {
+  margin-bottom: 20px;
+}
+
+.app-section .container .grid.mask .row .container .container .col-md-4 a img{
+  width: 80%;
+  height: 80%;
+  border: 5px solid white;
+  box-shadow: 5px 5px 10px #888888;
 }
 
 .container p {
   font-size: 14pt;
 }
-
-/* CAROUSEL
--------------------------------------------------- */
-
-.carousel-indicators li {
-  border: 1px solid black;
-}
-
-.carousel-indicators .active {
-  background-color: black;
-}
-
-/* Carousel base class */
-.carousel {
-  height: 725px;
-  margin-bottom: 0px;
-  padding-bottom: 0px; 
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-indicators {
-  margin-top: -20px;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item  {
-  padding-top: 0px;
-  padding-bottom: -100px;
-  height: 725px;
-  background-color: #FFF;
-}
-
-.carousel-inner {
-  margin-top: 0px;
-}
-
-.carousel-inner > .item > img {
-  top:  0;
-  left: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 35%;
-  height: 649px;
-  width: 323px;
-}
-
-.carousel-control {
-  color: black;
-}
-
-.carousel-control.right { 
-  background-image: none;
-}
-.carousel-control.left { 
-  background-image: none;
-}
-
 
 /* SIDEBAR
 -------------------------------------------------- */
