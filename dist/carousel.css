@@ -174,10 +174,20 @@ body {
 
 .col-lg-6 > p {
   font-size: 14pt;
+  /* margin-bottom: 95px; */
+}
+
+.col-lg-6  a img {
+  width: 50%;
+  height: 50%;
+}
+
+.col-lg-6 {
+  font-size: 14pt;
   margin-bottom: 95px;
 }
 
-img {
+.col-lg-2.col-md-offset-1 img {
   height: 100px;
   width: 100px;
 }
