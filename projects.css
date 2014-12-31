@@ -59,6 +59,11 @@ body {
   color: #0099FF;
 }
 
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+
 /* APPS
 -------------------------------------------------- */
 
