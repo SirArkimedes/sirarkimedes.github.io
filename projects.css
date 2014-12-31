@@ -81,6 +81,7 @@ body {
 
 .apps-section > .container > .row > .col-md-4 > .grid.mask > a > img.img-responsive {
   margin: auto;
+  margin-top: 10px;
   height: 261px;
   width: 261px;
 }
@@ -90,6 +91,7 @@ body {
   height: 261px;
   width: 261px;
 }
+
 
 /* GAMES
 -------------------------------------------------- */
