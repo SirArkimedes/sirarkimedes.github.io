@@ -157,25 +157,20 @@ body {
     padding-bottom: 35px;
 }
 
-.col-lg-6 > p {
-  font-size: 14pt;
+.row > p {
+  font-size: 17pt;
 }
 
-.col-lg-6  a img {
-  width: 35%;
-  height: 35%;
+.row a img {
+  width: 20%;
+  height: 20%;
+  margin-top: 15px;
 }
 
-.col-lg-6 {
-  font-size: 14pt;
+.row {
+  font-size: 17pt;
   margin-bottom: 95px;
 }
-
-.col-lg-2.col-md-offset-1 img {
-  height: 100px;
-  width: 100px;
-}
-
 
 /* CONTACT ME
 -------------------------------------------------- */
