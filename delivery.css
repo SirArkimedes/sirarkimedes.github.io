@@ -147,6 +147,10 @@ body {
   height: 649px;
   width: 323px;
 }
+.carousel-inner > .item:nth-child(1) > img {
+  height: 576px;
+  width: 432px;
+}
 
 .carousel-control {
   color: black;
