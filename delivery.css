@@ -81,13 +81,13 @@ body {
 }
 
 .apps-section .container .row:nth-child(1) {
-  margin-top: 20px;
   margin-bottom: 10px;
 }
 
 .apps-section > .container > .row > .col-md-4 > .grid.mask > a > img.img-responsive {
   margin: auto;
   margin-top: 10px;
+  margin-bottom: 10px;
   width: 50%;
   height: 50%;
 }
@@ -95,13 +95,7 @@ body {
 .apps-section > .container > .row > .col-md-4 > .grid.mask  > img.img-responsive {
   margin: auto;
   margin-top: 10px;
-  width: 50%;
-  height: 50%;
-}
-
-.apps-section > .container > .row > .col-md-4 > .grid.mask  > a > img {
-  margin: auto;
-  margin-top: 10px;
+  margin-bottom: 10px;
   width: 50%;
   height: 50%;
 }
