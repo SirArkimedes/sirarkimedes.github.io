@@ -82,7 +82,7 @@ body {
   margin-bottom: 60px;
 }
 
-.apps-section .container .row:nth-child(1) {
+.apps-section .container .row:nth-child(3) {
   margin-bottom: 10px;
 }
 
@@ -119,7 +119,7 @@ body {
 .carousel {
   height: 725px;
   margin-bottom: 0px;
-  padding-bottom: 0px; 
+  padding-bottom: 0px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-indicators {
@@ -156,10 +156,10 @@ body {
   color: black;
 }
 
-.carousel-control.right { 
+.carousel-control.right {
   background-image: none;
 }
-.carousel-control.left { 
+.carousel-control.left {
   background-image: none;
 }
 
