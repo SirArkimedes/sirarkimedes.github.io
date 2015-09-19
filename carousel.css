@@ -192,7 +192,7 @@ body {
   font-size: 30pt;
 }
 
-.contact-section > .container > .glyphicon {
+.contact-section > .container > h3 > a > .glyphicon {
   font-size: 50pt;
 }
 
