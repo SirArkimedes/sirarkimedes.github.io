@@ -246,10 +246,11 @@ body {
 .floating-label-form-group-with-value label {
     top: 0;
     opacity: 1;
+    text-align: left;
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #4EAE4A;
 }
 
 form .row:first-child .floating-label-form-group {
