@@ -80,7 +80,8 @@ body {
   height: 825px;
   margin-bottom: 20px;
   margin-top: -70px;
-  padding-bottom: 70px; 
+  padding-bottom: 70px;
+  background-color: #FFF;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -141,10 +142,10 @@ body {
   color: black;
 }
 
-.carousel-control.right { 
+.carousel-control.right {
   background-image: none;
 }
-.carousel-control.left { 
+.carousel-control.left {
   background-image: none;
 }
 
