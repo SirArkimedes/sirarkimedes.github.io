@@ -114,6 +114,10 @@ body {
 }
 
 .carousel-inner > .item:nth-child(4) > a > img {
+  width: 692px;
+}
+
+.carousel-inner > .item:nth-child(5) > a > img {
   width: 918px;
 }
 
